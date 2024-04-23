@@ -1,3 +1,15 @@
-packages: pytesseract, PIL, thefuzz
-url_taxon_gbifID.csv: image_url, taxon, gbif_id
-All json files have been saved in folders with taxon names
+# Solanaceae OCR test set
+
+All Solanaceae preserved specimen images are from GBIF 
+
+## Description
+
+* Please load the file url_taxon_gbifID.csv to obtain the image_url, taxon, gbif_id.
+* All JSON files have been saved in separate folders with taxon names specified
+
+## OCR Test Script
+
+### pytesseract
+
+* To run the notebook, please install packages including pytesseract, PIL, and thefuzz
+
